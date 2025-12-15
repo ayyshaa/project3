@@ -1,0 +1,332 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F6;
+}
+
+header .top {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    /* width: 80%; */
+    margin: auto;
+}
+
+header .top-ul {
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    gap: 40px;
+    color: #959BA4;
+    font-weight: 500;
+    margin-right: auto;
+}
+
+header .top-ul li:first-child {
+    color: black;
+}
+
+header img {
+    width: 110px;
+    height: 73px;
+    padding-top: 10px;
+}
+
+header button {
+    background-color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    width: 80px;
+    height: 40px;
+    /* margin-left: 5em; */
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+section .bottom {
+    /* width: 55%; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+
+section .big-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+section h1 {
+    font-size: 48px;
+    margin-bottom: 35px;
+
+}
+
+section h5 {
+    font-size: 16px;
+    color: #9F9F9F;
+    font-weight: 400;
+}
+
+section .btn {
+    display: flex;
+    gap: 0px;
+}
+
+button.active {
+    background: #833AE0;
+    color: #fff;
+}
+
+section .btn button:first-child,
+button:last-child {
+    border-radius: 5px 0 0 5px;
+
+}
+
+section .btn button:last-child {
+    border-radius: 0 5px 5px 0;
+
+}
+
+section button {
+    padding: 9px 28px;
+    margin: 12px 0 23px;
+    background-color: white;
+    color: #C6C6C6;
+    border: 1px solid #cfcfcf;
+}
+
+section .minibox {
+    border: 1px solid #cfcfcf;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 5px;
+}
+
+section .minibox .qiymet {
+    font-size: 46px;
+    border: none;
+    width: 300px;
+}
+
+section .minibox h4 {
+    font-weight: 400;
+    color: #C6C6C6;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1243px) {
+
+    header .top {
+        gap: 60px;
+    }
+
+    header .top-ul {
+        gap: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1122px) {
+
+    header .top {
+        gap: 50px;
+    }
+
+    header .top-ul {
+        gap: 15px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    header img {
+        width: 80px;
+        height: 53px;
+        padding-top: 7px;
+    }
+
+    header .top-ul {
+        font-size: 12px;
+        gap: 30px;
+    }
+
+    header .top {
+        gap: 40px;
+    }
+
+    header button {
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    section h1 {
+        font-size: 30px;
+        margin-bottom: 35px;
+
+    }
+
+    section h5 {
+        font-size: 13px;
+    }
+
+    section button {
+        padding: 7px 23px;
+        margin: 10px 0 20px;
+    }
+
+    section .big-box {
+        gap: 60px;
+    }
+
+    section .minibox .qiymet {
+        font-size: 37px;
+        width: 230px;
+    }
+
+    section .minibox h4 {
+        font-size: 12px;
+    }
+
+}
+@media screen and (min-width: 601px) and (max-width: 872px) {
+    header .top {
+        gap: 30px;
+    }
+
+    header .top-ul {
+        gap: 15px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 844px) {
+
+    header .top {
+        gap: 30px;
+    }
+
+    header .top-ul {
+        gap: 15px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 788px) {
+
+    header .top {
+        gap: 30px;
+    }
+
+    header .top-ul {
+        font-size: 10px;
+        gap: 10px;
+    }
+
+    header img {
+        width: 65px;
+    }
+
+    header button {
+        width: 50px;
+        height: 30px;
+        font-size: 8px;
+    }
+    section h1 {
+        font-size: 30px;
+        margin-bottom: 35px;
+
+    }
+    section .big-box {
+        gap: 40px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 656px){
+    section .big-box {
+        gap: 20px;
+    }
+    section button {
+        padding: 5px 18px;
+        margin: 10px 0 20px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 656px){
+     header .top {
+        gap: 10px;
+    }
+    header .top-ul {
+        gap: 10px;
+    }
+
+}
+@media screen and (min-width: 300px) and (max-width: 600px){
+
+    header .top-ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+        font-size: 10px;
+        padding: 10px 0;
+    }
+    header img {
+        width: 70px;
+        height: 53px;
+        padding-top: 7px;
+    }
+    header .top {
+        gap: 70px;
+    }
+
+    header button {
+        width: 60px;
+        height: 20px;
+        font-size: 8px;
+    }
+     section{
+        margin-top: 40px;
+     }
+    section .big-box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+     section h1 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    section h5 {
+        font-size: 12px;
+    }
+
+    section button {
+        padding: 4px 18px;
+        margin: 10px 0 20px;
+        font-size: 10px;
+    }
+    section .minibox .qiymet {
+        font-size: 25px;
+        width: 200px;
+    }
+
+    section .minibox h4 {
+        font-size: 10px;
+    }
+
+}
