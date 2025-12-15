@@ -1,5 +1,5 @@
 const API = "https://api.exchangerate.host/convert";
-const ACCESS_KEY = "016363d9b51f38bffe1927437090db5d";
+const ACCESS_KEY = "85445f87a7f6bcefcc4d392496e7ad37";
 
 const boxes = document.querySelectorAll(".box");
 const boxesz = document.querySelectorAll(".minibox");
